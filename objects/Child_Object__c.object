@@ -10,4 +10,15 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Description__c</columns>
+        <columns>External_Id__c</columns>
+        <columns>Phone__c</columns>
+        <columns>RECORDTYPE</columns>
+        <columns>Parent_Object__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
 </CustomObject>
