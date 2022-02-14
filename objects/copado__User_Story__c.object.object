@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>ByPassPRValidation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>ByPassPRValidation</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>JIRA_URL__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK($Label.MPGJiraDomain+ &apos;/browse/&apos; + Jira_Key__c, &apos;Click Here&apos;, Jira_Key__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>JIRA URL</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Jira_Key__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>false</externalId>
+        <label>Jira Key</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>is_Validated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>is Validated</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <validationRules>
+        <fullName>Pull_request_Approval_check_test</fullName>
+        <active>false</active>
+        <errorConditionFormula>AND( 
+OR(copado__Promote_and_Deploy__c =true, 
+copado__Promote_Change__c =true),
+copado__Pull_Requests_Approved__c=false,ByPassPRValidation__c=false)</errorConditionFormula>
+        <errorMessage>Pull request must be created and get it approved by one Peer.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Title_Starts_with_Jira_Key</fullName>
+        <active>true</active>
+        <errorConditionFormula>IF(NOT(REGEX( copado__User_Story_Title__c , &quot;^SAL-[0-9]{1,5}[a-zA-Z0-9 ]*${0,250}&quot;)),  IF(NOT(REGEX( copado__User_Story_Title__c , &quot;^BDT-[0-9]{1,5}[a-zA-Z0-9 ]*${0,250}&quot;)), true, false) , false)</errorConditionFormula>
+        <errorMessage>Please Start with Jira Key</errorMessage>
+    </validationRules>
+</CustomObject>
