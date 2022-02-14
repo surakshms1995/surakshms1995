@@ -128,16 +128,22 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Environment_Record_Page1</content>
         <formFactor>Large</formFactor>
-        <type>Default</type>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
     </actionOverrides>
     <actionOverrides>
         <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Environment_Record_Page1</content>
         <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
     <allowInChatterGroups>false</allowInChatterGroups>
@@ -153,6 +159,7 @@
     <enableSearch>true</enableSearch>
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
     <fields>
         <fullName>Environment_Type__c</fullName>
         <externalId>false</externalId>
@@ -175,11 +182,6 @@
                     <label>INT</label>
                 </value>
                 <value>
-                    <fullName>QA</fullName>
-                    <default>false</default>
-                    <label>QA</label>
-                </value>
-                <value>
                     <fullName>UAT</fullName>
                     <default>false</default>
                     <label>UAT</label>
@@ -199,9 +201,15 @@
                     <default>false</default>
                     <label>Prod</label>
                 </value>
+                <value>
+                    <fullName>QA</fullName>
+                    <default>false</default>
+                    <label>QA</label>
+                </value>
             </valueSetDefinition>
         </valueSet>
     </fields>
+    <label>Environment</label>
     <nameField>
         <label>Environment Name</label>
         <type>Text</type>
