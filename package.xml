@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>copado__Environment__c.Environment_Type__c</members>
+        <members>copado__Pull_Request__c.Approved_PR_Count__c</members>
+        <members>copado__User_Story__c.ByPassPRValidation__c</members>
+        <members>copado__User_Story__c.JIRA_URL__c</members>
+        <members>copado__User_Story__c.Jira_Key__c</members>
+        <members>copado__User_Story__c.is_Validated__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>MPGJiraDomain</members>
+        <name>CustomLabel</name>
+    </types>
+    <types>
+        <members>Autocheck_Ready_to_Promote</members>
+        <members>Reset_Deployment_Options_on_US_MPG</members>
+        <members>Run_Local_Tests_On_User_Story</members>
+        <members>Validation_Deployment_Check_on_User_Story</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>copado__User_Story__c.Pull_request_Approval_check_test</members>
+        <members>copado__User_Story__c.Title_Starts_with_Jira_Key</members>
+        <name>ValidationRule</name>
+    </types>
+    <version>53.0</version>
+</Package>
