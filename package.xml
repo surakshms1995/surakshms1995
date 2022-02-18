@@ -7,7 +7,7 @@
         <members>copado__User_Story__c.JIRA_URL__c</members>
         <members>copado__User_Story__c.Jira_Key__c</members>
         <members>copado__User_Story__c.is_Validated__c</members>
-        <name>CustomField</name>
+        <name>CustomField</name> 
     </types>
     <types>
         <members>MPGJiraDomain</members>
