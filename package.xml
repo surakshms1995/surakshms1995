@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Event.WhoId</members>
-        <members>Task.WhoId</members>
-        <name>CustomField</name>
-    </types>
-    <types>
-        <members>Admin</members>
-        <name>Profile</name>
+        <members>copado__Theme__c-copado__Theme Layout</members>
+        <name>Layout</name>
     </types>
     <version>54.0</version>
 </Package>
