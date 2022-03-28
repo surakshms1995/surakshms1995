@@ -41859,7 +41859,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-FlowOrchestrationInstance</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-FlowOrchestrationWorkItem</tab>
