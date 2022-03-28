@@ -41747,7 +41747,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-CmsAuthorHome</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-CollaborationGroup</tab>
