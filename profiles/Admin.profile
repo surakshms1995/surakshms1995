@@ -41815,7 +41815,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-DiscoveryForAccounts</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-DistributorAuthorization</tab>
@@ -41979,7 +41979,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ProcessInstanceWorkitem</tab>
-        <visibility>Hidden</visibility>
+        <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Producer</tab>
