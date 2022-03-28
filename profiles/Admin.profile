@@ -41747,7 +41747,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-CmsAuthorHome</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-CollaborationGroup</tab>
@@ -41815,7 +41815,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-DiscoveryForAccounts</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-DistributorAuthorization</tab>
@@ -41979,7 +41979,7 @@
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-ProcessInstanceWorkitem</tab>
-        <visibility>DefaultOn</visibility>
+        <visibility>DefaultOff</visibility>
     </tabVisibilities>
     <tabVisibilities>
         <tab>standard-Producer</tab>
