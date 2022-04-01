@@ -99,6 +99,10 @@
                 <behavior>Edit</behavior>
                 <field>Account_test__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Dummy__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
