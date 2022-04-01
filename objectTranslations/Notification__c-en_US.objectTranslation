@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Notification</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Notifications</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Notifications --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Application --></label>
+        <name>Application__c</name>
+        <picklistValues>
+            <masterLabel>RTCI</masterLabel>
+            <translation><!-- RTCI --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Event Time --></label>
+        <name>Event_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- From Time --></label>
+        <name>From_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Long Message --></label>
+        <name>Long_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message ID --></label>
+        <name>Message_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Message Type --></label>
+        <name>Message_Type__c</name>
+        <picklistValues>
+            <masterLabel>CreditCard</masterLabel>
+            <translation><!-- CreditCard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DeviceAlerts</masterLabel>
+            <translation><!-- DeviceAlerts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InvoiceReady</masterLabel>
+            <translation><!-- InvoiceReady --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MassOutage</masterLabel>
+            <translation><!-- MassOutage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ticket</masterLabel>
+            <translation><!-- Ticket --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Short Message --></label>
+        <name>Short_Message__c</name>
+    </fields>
+    <fields>
+        <label><!-- Time Zone --></label>
+        <name>Time_Zone__c</name>
+    </fields>
+    <fields>
+        <label><!-- To Time --></label>
+        <name>To_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaction ID --></label>
+        <name>Transaction_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>UID__c</name>
+        <relationshipLabel><!-- Notifications --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Vision Account ID --></label>
+        <name>Vision_Account_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vision Customer ID --></label>
+        <name>Vision_Customer_ID__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
