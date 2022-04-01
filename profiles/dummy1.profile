@@ -11177,6 +11177,7 @@
         <enabled>true</enabled>
         <name>copado__Data_Change_Event_Condition__c</name>
     </customSettingAccesses>
+    <description>descriptio dummy</description>
     <fieldPermissions>
         <editable>true</editable>
         <field>Account.AAA2__c</field>
