@@ -32,6 +32,7 @@
     </fields>
     <fields>
         <fullName>Test_Field__c</fullName>
+        <description>Test_Field__c</description>
         <externalId>false</externalId>
         <label>Test Field</label>
         <length>25</length>
