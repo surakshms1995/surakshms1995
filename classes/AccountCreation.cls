@@ -1,4 +1,4 @@
-@SuppressWarnings('PMD')
+//comments added and no sca run
 Public Class AccountCreation
 {
 Public List<Account> CreateAccount(String s, String p){
