@@ -11,16 +11,6 @@
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Dummy_1__c</fullName>
-        <externalId>false</externalId>
-        <label>Dummy1</label>
-        <length>255</length>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
         <fullName>Test_Field2_c__c</fullName>
         <externalId>false</externalId>
         <label>test Field 2</label>
