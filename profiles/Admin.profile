@@ -1414,6 +1414,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>ContactCreation</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>ContactUtility</apexClass>
         <enabled>true</enabled>
     </classAccesses>
