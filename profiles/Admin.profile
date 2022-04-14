@@ -190,6 +190,10 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
+        <apexClass>Accountcreation5</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+    <classAccesses>
         <apexClass>Amount</apexClass>
         <enabled>true</enabled>
     </classAccesses>
