@@ -1,0 +1,4 @@
+<aura:event type="COMPONENT" description="Event template">
+    <!-- test change-->
+    <aura:attribute name="nodeIndex" type="string" />
+</aura:event>

@@ -4,9 +4,5 @@
         <members>Accountcreation5</members>
         <name>ApexClass</name>
     </types>
-    <types>
-        <members>Admin</members>
-        <name>Profile</name>
-    </types>
     <version>54.0</version>
 </Package>
