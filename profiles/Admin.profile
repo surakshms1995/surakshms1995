@@ -274,10 +274,6 @@
         <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
-        <apexClass>Accountcreation5</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
-    <classAccesses>
         <apexClass>Amount</apexClass>
         <enabled>true</enabled>
     </classAccesses>
@@ -7107,11 +7103,6 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Account.Test_Field2_c__c</field>
-        <readable>false</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>false</editable>
-        <field>Account.Test_Field__c</field>
         <readable>false</readable>
     </fieldPermissions>
     <fieldPermissions>
