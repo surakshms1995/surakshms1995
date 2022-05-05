@@ -37,6 +37,13 @@
         <value>https://blue5green.atlassian.net</value>
     </labels>
     <labels>
+        <fullName>MyLabelName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>labels</shortDescription>
+        <value>Suraksh</value>
+    </labels>
+    <labels>
         <fullName>fscbot_bot_data_setup_complete</fullName>
         <language>en_US</language>
         <protected>false</protected>
