@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
-        <members>Accountcreation2</members>
-        <name>ApexClass</name>
+        <members>Account-new Account layout</members>
+        <members>Account-new Account1 layout</members>
+        <name>Layout</name>
     </types>
     <version>54.0</version>
 </Package>
