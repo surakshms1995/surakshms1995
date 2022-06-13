@@ -6,7 +6,7 @@
         <label>Custom Date</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <type>Date</type>
+        <type>DateTime</type>
     </fields>
     <fields>
         <fullName>Dummy_1__c</fullName>
